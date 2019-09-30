@@ -32,3 +32,8 @@
 [利用規約](https://yuki-js.github.io/contest-reminder/tos)
 
 [プライバシーポリシー](https://yuki-js.github.io/contest-reminder/privacy)
+
+## オープンソース
+
+本ソフトウェアのソースコードは https://github.com/yuki-js/contest-reminder/ で公開しています。
+本ソフトウェアはMITライセンスに基づく利用が可能です。
