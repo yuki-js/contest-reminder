@@ -25,7 +25,7 @@
 
 <a href="http://nav.cx/tkVKDM"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
 
-### 利用規約・プライバシーポリシー
+## 利用規約・プライバシーポリシー
 
 [利用規約](https://yuki-js.github.io/contest-reminder/tos)
 
