@@ -28,6 +28,8 @@
 
 <a href="http://nav.cx/tkVKDM"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
 
+またはLINE ID: @060cqlhl を入力してください
+
 通知を停止する際は「うるさい」とトークに書き込んでから通知をOFFにしてください。
 
 ## 利用規約・プライバシーポリシー
