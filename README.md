@@ -1,5 +1,8 @@
 # 毎日投票お知らせBot
 
+
+# [投票はこちら](https://central-voting-system.age.co.jp/cast/12/623/2?callback=https%3A%2F%2Fmisscolle.com%2Ftsukuba2019%2Fprofile%2F2)
+
 ## これは何？
 
 毎日午前11時30分ごろにミスNo.2青木ゆうきさんへの投票をお知らせするbotです。
