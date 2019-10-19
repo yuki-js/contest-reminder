@@ -105,15 +105,12 @@
       </div>
     </div>
     <script>
-      location.search.slice(1).split("&").forEach(function(l){
-        var t=l.split("=");
-        if(t[0]=="state"){
-          document.getElementById(t[1]).style.display="block"
-        }
-        if(t[0]=="message"){
-          document.getElementById("message").innerText=decodeURIComponent(t[1])
-        }
-      })
+      location.search.slice(1).split("&").map(function(t){
+        t=t.split("=")
+        (t[0]=="state") && (document.getElementById(t[1]).style.display="block")
+        (t[0]=="message") && (document.getElementById("message").innerText=decodeURIComponent(t[1]))
+	return t
+      }).length || (location.href="https://central-voting-system.age.co.jp/cast/12/623/2?callback=https%3A%2F%2Fyuki-js.github.io%2Fcontest-reminder%2Fvoted.html")
     </script>
   </body>
 </html>

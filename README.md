@@ -1,7 +1,7 @@
 # 毎日投票お知らせBot
 
 
-# [投票はこちら](https://central-voting-system.age.co.jp/cast/12/623/2?callback=https%3A%2F%2Fmisscolle.com%2Ftsukuba2019%2Fprofile%2F2)
+# [とりあえず投票はこちら](https://central-voting-system.age.co.jp/cast/12/623/2?callback=https%3A%2F%2Fyuki-js.github.io%2Fcontest-reminder%2Fvoted.html)
 
 ## これは何？
 
@@ -40,5 +40,5 @@
 
 ## オープンソース
 
-本ソフトウェアのソースコードは https://github.com/yuki-js/contest-reminder/ で公開しています。
+本ソフトウェアのソースコードは [https://github.com/yuki-js/contest-reminder/](https://github.com/yuki-js/contest-reminder/) で公開しています。
 本ソフトウェアはMITライセンスに基づく利用が可能です。
