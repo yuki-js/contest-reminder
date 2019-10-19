@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="UTF-8"/>
     <title>投票ステータスページ</title>
@@ -87,7 +87,7 @@
           font-size:1.1em;
       }
 
-      #card{
+      .card{
           background-color:white;
           position:absolute;
           width:240px;
@@ -110,14 +110,14 @@
   </head>
   <body>
     <div id="complete">
-      <div id="card">Thank you!</div>
+      <div class="card">Thank you!</div>
       <div class="container">
         <div class="dekai">投票完了</div>
         <div class="chisai">投票ありがとう！ブラウザ閉じてね</div>
       </div>
     </div>
     <div id="failed">
-      <div id="card">Sorry...</div>
+      <div class="card">Sorry...</div>
       <div class="container">
         <div class="dekai">投票失敗</div>
         <div class="chisai" id="message">何で失敗したか、明日まで考えといてください</div>
