@@ -55,8 +55,7 @@
 	        border-spacing: 0;
       }
       
-      #complete, #failed{
-          display:none;
+      #complete, #failed, #ended {
           width:100%;
           height:100%;
           position:absolute;
@@ -68,6 +67,9 @@
       }
       #failed{
           background-color:#da211b;
+      } 
+      #ended{
+	  background-color:#444444;
       }
       .container{
           width:100%;
@@ -110,30 +112,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
-    <div id="complete">
-      <div class="card" id="compcard">写真を見る</div>
+    
+    <div id="ended">
+      <div class="card">Thank you!</div>
       <div class="container">
-        <div class="dekai">投票完了</div>
-        <div class="chisai">投票ありがとう！ブラウザ閉じてね</div>
+        <div class="dekai">投票終了</div>
+        <div class="chisai" id="message">投票ありがとうございました</div>
       </div>
     </div>
-    <div id="failed">
-      <div class="card">Sorry...</div>
-      <div class="container">
-        <div class="dekai">投票失敗</div>
-        <div class="chisai" id="message">何で失敗したか、明日まで考えといてください</div>
-      </div>
-    </div>
-    <script>
-      gebi=document.getElementById.bind(document);
-      location.search.slice(1).split("&").filter(function(t){
-        return((t=t.split("=")),
-         (t[0]=="state") && (gebi(t[1]).style.display="block"),
-         !!t[0]
-        )
-      }).length || (location.href="https://central-voting-system.age.co.jp/cast/12/623/2?callback=https%3A%2F%2Fyuki-js.github.io%2Fcontest-reminder%2Fvoted.html");
-      gebi("compcard").addEventListener("click",function(){location.href="https://photos.app.goo.gl/WVunySFuCQksmvdd8"});
-      
-    </script>
+    
   </body>
 </html>
